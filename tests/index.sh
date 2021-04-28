@@ -4,6 +4,7 @@ test() {
     for file in $files; do
         eval $file
     done
+    echo ""
 }
 
 test

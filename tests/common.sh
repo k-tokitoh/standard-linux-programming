@@ -37,10 +37,10 @@ assert_equal() {
 
 echo_red() {
     echo -en "\e[31m"
-    echo "${1}"
+    echo $1
 }
 
 echo_green() {
     echo -en "\e[32m"
-    echo $1
+    echo -n $1
 }
