@@ -1,5 +1,5 @@
-CC		= gcc
-CFLAGS	= -Wall
+CC      = gcc
+CFLAGS  = -Wall
 SOURCES = $(wildcard commands/*/*.c)
 TARGETS = $(SOURCES:%.c=%)
 
